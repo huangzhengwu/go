@@ -1,0 +1,21 @@
+
+###
+###注册接口
+POST http://127.0.0.1:8081/signup
+Content-Type: application/json
+
+{
+  "username": "test_go",
+  "password": "123",
+  "re_password": "1231"
+}
+
+
+###登录接口
+POST http://127.0.0.1:8081/login
+Content-Type: application/json
+
+{
+  "username": "test_go",
+  "password": "123"
+}
