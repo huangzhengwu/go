@@ -5,11 +5,10 @@ POST http://127.0.0.1:8081/signup
 Content-Type: application/json
 
 {
-  "username": "test_go2",
-  "password": "1234",
-  "re_password": "1234"
+  "username": "test_go4",
+  "password": "123456",
+  "re_password": "123456"
 }
-
 
 ###登录接口
 POST http://127.0.0.1:8081/login
@@ -17,15 +16,33 @@ Content-Type: application/json
 
 {
   "username": "test_go2",
-  "password": "1234",
-  "token": "my-secret-token"
+  "password": "1234"
 }
 
-###登录接口
-POST http://127.0.0.1:8081/ping
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxNDE3NDAxMzQ3MzIxMzY4NTc2LCJ1c2VybmFtZSI6InRlc3RfZ28yIiwiZXhwIjoxNjI2ODQzOTgzLCJpc3MiOiJteS1wcm9qZWN0In0.VF0PpLAKOPzxQIJ8zx3OCFuzqciptLOF-wAd6gi6BUA
+###获取社区数据
+GET http://127.0.0.1:8081/api/v1/community
+Authorization: Bearer {{token}}
 
 {
-  "username": "test_go2",
-  "password": "1234",
+  "": ""
 }
+
+###根据社区id，获取详情数据
+GET http://127.0.0.1:8081/api/v1/community/2
+Authorization: Bearer {{token}}
+
+{
+  "": ""
+}
+
+###添加帖子
+POST http://127.0.0.1:8081/api/v1/post
+Authorization: Bearer {{token}}
+
+{
+  "CommunityID": 1,
+  "Status": 1,
+  "Title": "雄鹿夺冠了",
+  "Content": "7.21号，雄鹿夺冠了，字母哥屌炸了",
+}
+

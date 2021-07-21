@@ -2,6 +2,7 @@ package middlewares
 
 import (
 	"github.com/gin-gonic/gin"
+	"go.uber.org/zap"
 	"net/http"
 	"strings"
 	"web_app/pkg/jwt"
@@ -37,6 +38,7 @@ func JWTAuthMiddleware() func(c *gin.Context) {
 		// parts[1]是获取到的tokenString，我们使用之前定义好的解析JWT的函数来解析它
 		mc, err := jwt.ParseToken(parts[1])
 		if err != nil {
+			zap.L().Error("无效的Token", zap.Error(err))
 			c.JSON(http.StatusOK, gin.H{
 				"code": 2005,
 				"msg":  "无效的Token",

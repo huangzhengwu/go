@@ -10,6 +10,7 @@ var Conf = new(AllConfig)
 
 type AllConfig struct {
 	*AppConfig   `mapstructure:"app"`
+	*AuthConfig  `mapstructure:"auth"`
 	*LogConfig   `mapstructure:"log"`
 	*MySQLConfig `mapstructure:"mysql"`
 	*RedisConfig `mapstructure:"redis"`
@@ -20,6 +21,10 @@ type AppConfig struct {
 	Mode    string `mapstructure:"mode"`
 	Version string `mapstructure:"version"`
 	Port    int    `mapstructure:"port"`
+}
+
+type AuthConfig struct {
+	JwtExpire int `mapstructure:"jwt_expire"`
 }
 
 type LogConfig struct {

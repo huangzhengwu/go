@@ -15,12 +15,16 @@ func Setup(mode string) *gin.Engine {
 	r := gin.New()
 	r.Use(logger.GinLogger(), logger.GinRecovery(true))
 
+	v1 := r.Group("/api/v1")
+
 	r.POST("/signup", controllers.SignUpHandler)
 	r.POST("/login", controllers.Login)
-
-	r.POST("/ping", middlewares.JWTAuthMiddleware(), func(c *gin.Context) {
-		c.String(http.StatusOK, "ok")
-	})
+	v1.Use(middlewares.JWTAuthMiddleware()) //应用 JWT认证 中间件
+	{
+		v1.GET("/community", controllers.CommunityHandle)
+		v1.GET("/community/:id", controllers.CommunityDetailHandle)
+		v1.POST("/post", controllers.CreatePostHandle)
+	}
 	r.NoRoute(func(c *gin.Context) {
 		c.JSON(http.StatusOK, gin.H{
 			"msg": "404",

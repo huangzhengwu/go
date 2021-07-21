@@ -316,3 +316,275 @@
 {"level":"INFO","time":"2021-07-21T11:14:47.961+0800","caller":"logger/logger.go:81","msg":"/ping","status":200,"method":"POST","path":"/ping","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0}
 {"level":"INFO","time":"2021-07-21T11:33:01.515+0800","caller":"web_app/main.go:77","msg":"Shutdown Server ..."}
 {"level":"INFO","time":"2021-07-21T11:33:01.522+0800","caller":"web_app/main.go:86","msg":"Server exiting"}
+{"level":"INFO","time":"2021-07-21T11:52:01.183+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-21T11:52:01.191+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-21T11:52:30.541+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-21T11:52:30.551+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-21T11:52:36.379+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0179013}
+{"level":"INFO","time":"2021-07-21T11:52:59.048+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0030748}
+{"level":"INFO","time":"2021-07-21T11:53:09.753+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-21T11:53:09.764+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-21T14:51:46.353+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-21T14:51:47.130+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-21T14:52:30.832+0800","caller":"logger/logger.go:81","msg":"/ping","status":200,"method":"POST","path":"/ping","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0014054}
+{"level":"ERROR","time":"2021-07-21T14:52:33.405+0800","caller":"mysql/user.go:23","msg":"CheckUserExist"}
+{"level":"INFO","time":"2021-07-21T14:52:33.405+0800","caller":"logger/logger.go:81","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0066533}
+{"level":"INFO","time":"2021-07-21T14:52:53.071+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0033788}
+{"level":"INFO","time":"2021-07-21T14:53:30.185+0800","caller":"logger/logger.go:81","msg":"/api/v1/community","status":200,"method":"POST","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0}
+{"level":"INFO","time":"2021-07-21T14:53:55.777+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-21T14:53:55.783+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-21T14:54:12.661+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-21T14:54:12.675+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-21T14:54:20.423+0800","caller":"logger/logger.go:81","msg":"/api/v1/community","status":200,"method":"POST","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0}
+{"level":"INFO","time":"2021-07-21T14:54:27.018+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0026967}
+{"level":"INFO","time":"2021-07-21T14:54:42.063+0800","caller":"logger/logger.go:81","msg":"/api/v1/community","status":200,"method":"POST","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0}
+{"level":"INFO","time":"2021-07-21T14:55:01.615+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-21T14:55:01.624+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-21T14:55:16.153+0800","caller":"logger/logger.go:81","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0}
+{"level":"INFO","time":"2021-07-21T14:55:22.364+0800","caller":"logger/logger.go:81","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0}
+{"level":"INFO","time":"2021-07-21T14:55:44.064+0800","caller":"logger/logger.go:81","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0}
+{"level":"INFO","time":"2021-07-21T14:56:14.118+0800","caller":"logger/logger.go:81","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0}
+{"level":"INFO","time":"2021-07-21T14:56:14.796+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-21T14:56:14.992+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-21T14:56:15.049+0800","caller":"routes/routes.go:23","msg":"1111111"}
+{"level":"INFO","time":"2021-07-21T14:56:28.114+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-21T14:56:30.108+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-21T14:56:30.139+0800","caller":"routes/routes.go:24","msg":"1111111"}
+{"level":"INFO","time":"2021-07-21T14:56:33.846+0800","caller":"logger/logger.go:81","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0}
+{"level":"INFO","time":"2021-07-21T14:56:53.666+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-21T14:56:53.683+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-21T14:56:56.620+0800","caller":"logger/logger.go:81","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0}
+{"level":"INFO","time":"2021-07-21T14:56:59.680+0800","caller":"logger/logger.go:81","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0}
+{"level":"INFO","time":"2021-07-21T14:57:00.524+0800","caller":"logger/logger.go:81","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0}
+{"level":"INFO","time":"2021-07-21T14:57:05.666+0800","caller":"logger/logger.go:81","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0}
+{"level":"INFO","time":"2021-07-21T14:57:06.540+0800","caller":"logger/logger.go:81","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0}
+{"level":"INFO","time":"2021-07-21T14:57:13.320+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-21T14:57:13.415+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-21T14:57:20.243+0800","caller":"logger/logger.go:81","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0}
+{"level":"INFO","time":"2021-07-21T14:57:31.954+0800","caller":"logger/logger.go:81","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0}
+{"level":"INFO","time":"2021-07-21T14:57:51.014+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-21T14:57:52.414+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-21T14:57:53.469+0800","caller":"routes/routes.go:24","msg":"1111111"}
+{"level":"INFO","time":"2021-07-21T14:58:04.296+0800","caller":"logger/logger.go:81","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0}
+{"level":"INFO","time":"2021-07-21T14:58:15.244+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-21T14:58:15.260+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-21T14:58:15.265+0800","caller":"routes/routes.go:24","msg":"1111111"}
+{"level":"INFO","time":"2021-07-21T14:58:28.240+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-21T14:58:28.265+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-21T14:58:28.270+0800","caller":"routes/routes.go:27","msg":"1111111"}
+{"level":"INFO","time":"2021-07-21T14:58:28.270+0800","caller":"routes/routes.go:28","msg":"1111111"}
+{"level":"INFO","time":"2021-07-21T14:58:59.401+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-21T14:58:59.410+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-21T14:58:59.415+0800","caller":"routes/routes.go:27","msg":"1111111"}
+{"level":"INFO","time":"2021-07-21T14:58:59.415+0800","caller":"routes/routes.go:28","msg":"1111111"}
+{"level":"INFO","time":"2021-07-21T14:59:01.789+0800","caller":"logger/logger.go:81","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0}
+{"level":"INFO","time":"2021-07-21T14:59:07.212+0800","caller":"logger/logger.go:81","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0}
+{"level":"INFO","time":"2021-07-21T14:59:19.786+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-21T14:59:19.805+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-21T14:59:19.810+0800","caller":"routes/routes.go:24","msg":"1111111"}
+{"level":"INFO","time":"2021-07-21T14:59:19.810+0800","caller":"routes/routes.go:25","msg":"1111111"}
+{"level":"INFO","time":"2021-07-21T14:59:19.810+0800","caller":"routes/routes.go:30","msg":"1111111"}
+{"level":"INFO","time":"2021-07-21T14:59:19.810+0800","caller":"routes/routes.go:31","msg":"1111111"}
+{"level":"INFO","time":"2021-07-21T14:59:23.323+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-21T14:59:23.335+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-21T14:59:23.357+0800","caller":"routes/routes.go:24","msg":"222222"}
+{"level":"INFO","time":"2021-07-21T14:59:23.357+0800","caller":"routes/routes.go:25","msg":"222222"}
+{"level":"INFO","time":"2021-07-21T14:59:23.357+0800","caller":"routes/routes.go:30","msg":"1111111"}
+{"level":"INFO","time":"2021-07-21T14:59:23.357+0800","caller":"routes/routes.go:31","msg":"1111111"}
+{"level":"INFO","time":"2021-07-21T14:59:25.783+0800","caller":"logger/logger.go:81","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0}
+{"level":"INFO","time":"2021-07-21T14:59:35.005+0800","caller":"logger/logger.go:81","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0}
+{"level":"INFO","time":"2021-07-21T15:00:01.801+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-21T15:00:01.815+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-21T15:00:01.819+0800","caller":"routes/routes.go:23","msg":"33333"}
+{"level":"INFO","time":"2021-07-21T15:00:01.819+0800","caller":"routes/routes.go:25","msg":"222222"}
+{"level":"INFO","time":"2021-07-21T15:00:01.819+0800","caller":"routes/routes.go:26","msg":"222222"}
+{"level":"INFO","time":"2021-07-21T15:00:01.819+0800","caller":"routes/routes.go:31","msg":"1111111"}
+{"level":"INFO","time":"2021-07-21T15:00:01.819+0800","caller":"routes/routes.go:32","msg":"1111111"}
+{"level":"INFO","time":"2021-07-21T15:00:08.166+0800","caller":"logger/logger.go:81","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0}
+{"level":"INFO","time":"2021-07-21T15:01:04.966+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-21T15:01:04.973+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-21T15:01:05.014+0800","caller":"routes/routes.go:19","msg":"33333"}
+{"level":"INFO","time":"2021-07-21T15:01:05.014+0800","caller":"routes/routes.go:24","msg":"33333"}
+{"level":"INFO","time":"2021-07-21T15:01:05.014+0800","caller":"routes/routes.go:26","msg":"222222"}
+{"level":"INFO","time":"2021-07-21T15:01:05.014+0800","caller":"routes/routes.go:27","msg":"222222"}
+{"level":"INFO","time":"2021-07-21T15:01:05.014+0800","caller":"routes/routes.go:32","msg":"1111111"}
+{"level":"INFO","time":"2021-07-21T15:01:05.014+0800","caller":"routes/routes.go:33","msg":"1111111"}
+{"level":"INFO","time":"2021-07-21T15:01:13.208+0800","caller":"logger/logger.go:81","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0005602}
+{"level":"INFO","time":"2021-07-21T15:01:24.529+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.003553}
+{"level":"INFO","time":"2021-07-21T15:02:25.128+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-21T15:02:25.136+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-21T15:02:25.140+0800","caller":"routes/routes.go:19","msg":"33333"}
+{"level":"INFO","time":"2021-07-21T15:02:25.140+0800","caller":"routes/routes.go:24","msg":"33333"}
+{"level":"INFO","time":"2021-07-21T15:02:25.140+0800","caller":"routes/routes.go:26","msg":"222222"}
+{"level":"INFO","time":"2021-07-21T15:02:25.140+0800","caller":"routes/routes.go:27","msg":"222222"}
+{"level":"INFO","time":"2021-07-21T15:02:25.140+0800","caller":"routes/routes.go:32","msg":"1111111"}
+{"level":"INFO","time":"2021-07-21T15:02:25.140+0800","caller":"routes/routes.go:33","msg":"1111111"}
+{"level":"INFO","time":"2021-07-21T15:02:32.112+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.042811}
+{"level":"INFO","time":"2021-07-21T15:03:01.993+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-21T15:03:02.002+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-21T15:03:02.005+0800","caller":"routes/routes.go:19","msg":"33333"}
+{"level":"INFO","time":"2021-07-21T15:03:02.005+0800","caller":"routes/routes.go:24","msg":"33333"}
+{"level":"INFO","time":"2021-07-21T15:03:02.005+0800","caller":"routes/routes.go:26","msg":"222222"}
+{"level":"INFO","time":"2021-07-21T15:03:02.005+0800","caller":"routes/routes.go:27","msg":"222222"}
+{"level":"INFO","time":"2021-07-21T15:03:02.006+0800","caller":"routes/routes.go:32","msg":"1111111"}
+{"level":"INFO","time":"2021-07-21T15:03:02.006+0800","caller":"routes/routes.go:33","msg":"1111111"}
+{"level":"INFO","time":"2021-07-21T15:03:10.535+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0274176}
+{"level":"INFO","time":"2021-07-21T15:03:42.463+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-21T15:03:42.471+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-21T15:03:42.485+0800","caller":"routes/routes.go:19","msg":"33333"}
+{"level":"INFO","time":"2021-07-21T15:03:42.487+0800","caller":"routes/routes.go:24","msg":"33333"}
+{"level":"INFO","time":"2021-07-21T15:03:42.487+0800","caller":"routes/routes.go:26","msg":"222222"}
+{"level":"INFO","time":"2021-07-21T15:03:42.488+0800","caller":"routes/routes.go:27","msg":"222222"}
+{"level":"INFO","time":"2021-07-21T15:03:42.488+0800","caller":"routes/routes.go:32","msg":"1111111"}
+{"level":"INFO","time":"2021-07-21T15:03:42.488+0800","caller":"routes/routes.go:33","msg":"1111111"}
+{"level":"INFO","time":"2021-07-21T15:04:58.257+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-21T15:04:58.264+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-21T15:04:58.268+0800","caller":"routes/routes.go:19","msg":"33333"}
+{"level":"INFO","time":"2021-07-21T15:04:58.269+0800","caller":"routes/routes.go:24","msg":"33333"}
+{"level":"INFO","time":"2021-07-21T15:04:58.269+0800","caller":"routes/routes.go:26","msg":"222222"}
+{"level":"INFO","time":"2021-07-21T15:04:58.269+0800","caller":"routes/routes.go:27","msg":"222222"}
+{"level":"INFO","time":"2021-07-21T15:04:58.270+0800","caller":"routes/routes.go:32","msg":"1111111"}
+{"level":"INFO","time":"2021-07-21T15:04:58.270+0800","caller":"routes/routes.go:33","msg":"1111111"}
+{"level":"INFO","time":"2021-07-21T15:05:07.851+0800","caller":"controllers/user.go:39","msg":"Login invalid param err:"}
+{"level":"INFO","time":"2021-07-21T15:05:07.855+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0041311}
+{"level":"INFO","time":"2021-07-21T15:05:57.834+0800","caller":"web_app/main.go:77","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2021-07-21T15:05:57.840+0800","caller":"web_app/main.go:86","msg":"Server exiting"}
+{"level":"INFO","time":"2021-07-21T15:06:00.618+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-21T15:06:00.626+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-21T15:06:00.629+0800","caller":"routes/routes.go:19","msg":"33333"}
+{"level":"INFO","time":"2021-07-21T15:06:00.630+0800","caller":"routes/routes.go:24","msg":"33333"}
+{"level":"INFO","time":"2021-07-21T15:06:00.630+0800","caller":"routes/routes.go:26","msg":"222222"}
+{"level":"INFO","time":"2021-07-21T15:06:00.630+0800","caller":"routes/routes.go:27","msg":"222222"}
+{"level":"INFO","time":"2021-07-21T15:06:00.630+0800","caller":"routes/routes.go:32","msg":"1111111"}
+{"level":"INFO","time":"2021-07-21T15:06:00.632+0800","caller":"routes/routes.go:33","msg":"1111111"}
+{"level":"INFO","time":"2021-07-21T15:06:17.741+0800","caller":"logger/logger.go:81","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0020478}
+{"level":"INFO","time":"2021-07-21T15:06:23.813+0800","caller":"logger/logger.go:81","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0015041}
+{"level":"INFO","time":"2021-07-21T15:07:42.216+0800","caller":"web_app/main.go:77","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2021-07-21T15:07:42.224+0800","caller":"web_app/main.go:86","msg":"Server exiting"}
+{"level":"INFO","time":"2021-07-21T15:07:45.113+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-21T15:07:45.120+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-21T15:07:45.125+0800","caller":"routes/routes.go:19","msg":"33333"}
+{"level":"INFO","time":"2021-07-21T15:07:59.538+0800","caller":"logger/logger.go:81","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0020675}
+{"level":"INFO","time":"2021-07-21T15:08:18.567+0800","caller":"logger/logger.go:81","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0016689}
+{"level":"INFO","time":"2021-07-21T15:08:46.146+0800","caller":"web_app/main.go:77","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2021-07-21T15:08:46.150+0800","caller":"web_app/main.go:86","msg":"Server exiting"}
+{"level":"INFO","time":"2021-07-21T15:08:49.169+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-21T15:08:49.177+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-21T15:08:55.587+0800","caller":"logger/logger.go:81","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0065397}
+{"level":"INFO","time":"2021-07-21T15:18:03.106+0800","caller":"web_app/main.go:77","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2021-07-21T15:18:03.115+0800","caller":"web_app/main.go:86","msg":"Server exiting"}
+{"level":"INFO","time":"2021-07-21T15:18:07.050+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-21T15:18:07.059+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-21T15:18:12.672+0800","caller":"logger/logger.go:81","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0029362}
+{"level":"ERROR","time":"2021-07-21T15:18:58.531+0800","caller":"logic/user.go:37","msg":"Login Login err:","error":"用户不存在"}
+{"level":"ERROR","time":"2021-07-21T15:18:58.531+0800","caller":"controllers/user.go:52","msg":"Login invalid password err:","error":"用户不存在"}
+{"level":"INFO","time":"2021-07-21T15:18:58.532+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0132135}
+{"level":"INFO","time":"2021-07-21T15:19:15.303+0800","caller":"logger/logger.go:81","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0059488}
+{"level":"INFO","time":"2021-07-21T15:20:55.264+0800","caller":"logger/logger.go:81","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0323232}
+{"level":"INFO","time":"2021-07-21T15:23:07.734+0800","caller":"web_app/main.go:77","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2021-07-21T15:23:07.750+0800","caller":"web_app/main.go:86","msg":"Server exiting"}
+{"level":"INFO","time":"2021-07-21T15:23:34.643+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-21T15:23:34.651+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-21T15:23:41.661+0800","caller":"logger/logger.go:81","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0019143}
+{"level":"INFO","time":"2021-07-21T15:25:02.975+0800","caller":"web_app/main.go:77","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2021-07-21T15:25:02.991+0800","caller":"web_app/main.go:86","msg":"Server exiting"}
+{"level":"INFO","time":"2021-07-21T15:25:13.826+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-21T15:25:13.844+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-21T15:25:50.216+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-21T15:25:50.974+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-21T15:26:27.229+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-21T15:26:27.812+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-21T15:35:36.854+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-21T15:35:36.862+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-21T15:35:58.987+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-21T15:35:58.993+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-21T15:36:02.366+0800","caller":"logger/logger.go:81","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.002281}
+{"level":"INFO","time":"2021-07-21T16:00:11.797+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-21T16:00:11.804+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-21T16:00:19.847+0800","caller":"logger/logger.go:81","msg":"/api/v1/community_detail","status":200,"method":"GET","path":"/api/v1/community_detail","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0000361}
+{"level":"INFO","time":"2021-07-21T16:01:00.532+0800","caller":"logger/logger.go:81","msg":"/api/v1/community/2","status":200,"method":"GET","path":"/api/v1/community/2","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0263426}
+{"level":"INFO","time":"2021-07-21T16:02:38.832+0800","caller":"web_app/main.go:77","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2021-07-21T16:02:38.836+0800","caller":"web_app/main.go:86","msg":"Server exiting"}
+{"level":"INFO","time":"2021-07-21T16:02:42.187+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-21T16:02:42.198+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-21T16:02:50.185+0800","caller":"logger/logger.go:81","msg":"/api/v1/community/2","status":200,"method":"GET","path":"/api/v1/community/2","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0125967}
+{"level":"INFO","time":"2021-07-21T16:04:19.737+0800","caller":"web_app/main.go:77","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2021-07-21T16:04:19.743+0800","caller":"web_app/main.go:86","msg":"Server exiting"}
+{"level":"INFO","time":"2021-07-21T16:04:22.797+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-21T16:04:22.805+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-21T16:04:40.553+0800","caller":"logger/logger.go:81","msg":"/api/v1/community/2","status":200,"method":"GET","path":"/api/v1/community/2","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0047582}
+{"level":"INFO","time":"2021-07-21T17:51:12.453+0800","caller":"logger/logger.go:81","msg":"/api/v1/community/2","status":200,"method":"GET","path":"/api/v1/community/2","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0}
+{"level":"INFO","time":"2021-07-21T17:51:14.924+0800","caller":"web_app/main.go:77","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2021-07-21T17:51:14.928+0800","caller":"web_app/main.go:86","msg":"Server exiting"}
+{"level":"INFO","time":"2021-07-21T17:51:21.297+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-21T17:51:21.418+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-21T17:51:26.820+0800","caller":"logger/logger.go:81","msg":"/api/v1/community/2","status":200,"method":"GET","path":"/api/v1/community/2","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.000811}
+{"level":"INFO","time":"2021-07-21T17:51:34.713+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0153155}
+{"level":"INFO","time":"2021-07-21T17:51:56.534+0800","caller":"logger/logger.go:81","msg":"/api/v1/community/2","status":200,"method":"GET","path":"/api/v1/community/2","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0054947}
+{"level":"INFO","time":"2021-07-21T17:54:00.164+0800","caller":"web_app/main.go:77","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2021-07-21T17:54:00.176+0800","caller":"web_app/main.go:86","msg":"Server exiting"}
+{"level":"INFO","time":"2021-07-21T17:55:02.797+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-21T17:55:02.805+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-21T17:55:15.528+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0049579}
+{"level":"INFO","time":"2021-07-21T18:06:28.233+0800","caller":"web_app/main.go:77","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2021-07-21T18:06:28.244+0800","caller":"web_app/main.go:86","msg":"Server exiting"}
+{"level":"INFO","time":"2021-07-21T18:06:31.963+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-21T18:06:31.973+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-21T18:15:28.914+0800","caller":"web_app/main.go:77","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2021-07-21T18:15:28.920+0800","caller":"web_app/main.go:86","msg":"Server exiting"}
+{"level":"INFO","time":"2021-07-21T18:15:31.821+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-21T18:15:31.892+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-21T18:15:46.794+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0152506}
+{"level":"INFO","time":"2021-07-21T18:18:18.061+0800","caller":"logger/logger.go:81","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.000663}
+{"level":"INFO","time":"2021-07-21T18:18:35.380+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0577963}
+{"level":"INFO","time":"2021-07-21T18:18:53.038+0800","caller":"logger/logger.go:81","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0}
+{"level":"INFO","time":"2021-07-21T18:18:55.776+0800","caller":"logger/logger.go:81","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0}
+{"level":"INFO","time":"2021-07-21T18:19:01.956+0800","caller":"logger/logger.go:81","msg":"/api/v1/community/2","status":200,"method":"GET","path":"/api/v1/community/2","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0}
+{"level":"INFO","time":"2021-07-21T18:19:23.975+0800","caller":"logger/logger.go:81","msg":"/api/v1/community/2","status":200,"method":"GET","path":"/api/v1/community/2","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0}
+{"level":"INFO","time":"2021-07-21T18:19:34.166+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0034451}
+{"level":"INFO","time":"2021-07-21T18:19:39.056+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0046628}
+{"level":"INFO","time":"2021-07-21T18:19:50.736+0800","caller":"logger/logger.go:81","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0}
+{"level":"INFO","time":"2021-07-21T18:20:09.908+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0093229}
+{"level":"INFO","time":"2021-07-21T18:20:19.602+0800","caller":"logger/logger.go:81","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0}
+{"level":"INFO","time":"2021-07-21T18:22:21.239+0800","caller":"web_app/main.go:77","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2021-07-21T18:22:21.251+0800","caller":"web_app/main.go:86","msg":"Server exiting"}
+{"level":"INFO","time":"2021-07-21T18:22:24.044+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-21T18:22:25.727+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-21T18:22:33.742+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0113665}
+{"level":"ERROR","time":"2021-07-21T18:22:47.628+0800","caller":"middlewares/auth.go:41","msg":"无效的Token","error":"token is expired by 14s"}
+{"level":"INFO","time":"2021-07-21T18:22:47.628+0800","caller":"logger/logger.go:81","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0005042}
+{"level":"ERROR","time":"2021-07-21T18:23:02.716+0800","caller":"middlewares/auth.go:41","msg":"无效的Token","error":"token is expired by 29s"}
+{"level":"INFO","time":"2021-07-21T18:23:02.716+0800","caller":"logger/logger.go:81","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0}
+{"level":"INFO","time":"2021-07-21T18:23:59.192+0800","caller":"web_app/main.go:77","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2021-07-21T18:23:59.205+0800","caller":"web_app/main.go:86","msg":"Server exiting"}
+{"level":"INFO","time":"2021-07-21T18:24:02.647+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-21T18:24:02.662+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-21T18:24:17.797+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0043473}
+{"level":"ERROR","time":"2021-07-21T18:24:28.825+0800","caller":"middlewares/auth.go:41","msg":"无效的Token","error":"token is expired by 11s"}
+{"level":"INFO","time":"2021-07-21T18:24:28.826+0800","caller":"logger/logger.go:81","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0005218}
+{"level":"INFO","time":"2021-07-21T18:25:26.642+0800","caller":"web_app/main.go:77","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2021-07-21T18:25:26.657+0800","caller":"web_app/main.go:86","msg":"Server exiting"}
+{"level":"INFO","time":"2021-07-21T18:25:29.797+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-21T18:25:29.869+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-21T18:25:38.054+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0047155}
+{"level":"INFO","time":"2021-07-21T18:25:50.121+0800","caller":"logger/logger.go:81","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.001505}
+{"level":"INFO","time":"2021-07-21T18:27:11.457+0800","caller":"web_app/main.go:77","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2021-07-21T18:27:11.466+0800","caller":"web_app/main.go:86","msg":"Server exiting"}
+{"level":"INFO","time":"2021-07-21T18:27:15.459+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-21T18:27:15.468+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-21T18:27:25.160+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0056612}
+{"level":"INFO","time":"2021-07-21T18:28:11.120+0800","caller":"web_app/main.go:77","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2021-07-21T18:28:11.134+0800","caller":"web_app/main.go:86","msg":"Server exiting"}
+{"level":"INFO","time":"2021-07-21T18:28:14.490+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-21T18:28:14.505+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-21T18:29:14.055+0800","caller":"web_app/main.go:77","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2021-07-21T18:29:14.068+0800","caller":"web_app/main.go:86","msg":"Server exiting"}
+{"level":"INFO","time":"2021-07-21T18:29:16.928+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-21T18:29:16.976+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-21T18:29:52.337+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0034971}
+{"level":"INFO","time":"2021-07-21T18:30:16.446+0800","caller":"logger/logger.go:81","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0080427}
+{"level":"INFO","time":"2021-07-21T18:30:43.276+0800","caller":"logger/logger.go:81","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0064597}
+{"level":"INFO","time":"2021-07-21T18:30:58.367+0800","caller":"logger/logger.go:81","msg":"/api/v1/community/2","status":200,"method":"GET","path":"/api/v1/community/2","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0048758}
+{"level":"INFO","time":"2021-07-21T18:33:39.392+0800","caller":"logger/logger.go:81","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0}
+{"level":"INFO","time":"2021-07-21T18:33:45.867+0800","caller":"logger/logger.go:81","msg":"/api/v1/community/2","status":200,"method":"GET","path":"/api/v1/community/2","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0099741}
+{"level":"INFO","time":"2021-07-21T18:33:50.708+0800","caller":"logger/logger.go:81","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0}
