@@ -201,3 +201,89 @@
 {"level":"INFO","time":"2021-07-17T10:44:05.271+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0055535}
 {"level":"INFO","time":"2021-07-19T09:23:57.098+0800","caller":"web_app/main.go:77","msg":"Shutdown Server ..."}
 {"level":"INFO","time":"2021-07-19T09:23:57.103+0800","caller":"web_app/main.go:86","msg":"Server exiting"}
+{"level":"INFO","time":"2021-07-20T16:29:01.156+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-20T16:29:01.231+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-20T16:29:15.652+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":7.332436}
+{"level":"INFO","time":"2021-07-20T16:29:49.910+0800","caller":"logger/logger.go:81","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0435733}
+{"level":"INFO","time":"2021-07-20T16:29:57.485+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0145723}
+{"level":"INFO","time":"2021-07-20T16:35:38.687+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0065082}
+{"level":"INFO","time":"2021-07-20T16:35:41.677+0800","caller":"web_app/main.go:77","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2021-07-20T16:35:41.691+0800","caller":"web_app/main.go:86","msg":"Server exiting"}
+{"level":"INFO","time":"2021-07-20T16:35:45.665+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-20T16:35:45.694+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"ERROR","time":"2021-07-20T16:35:52.342+0800","caller":"controllers/user.go:52","msg":"Login invalid password err:","error":"key is of invalid type"}
+{"level":"INFO","time":"2021-07-20T16:35:52.342+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0066849}
+{"level":"ERROR","time":"2021-07-20T16:35:58.794+0800","caller":"controllers/user.go:52","msg":"Login invalid password err:","error":"key is of invalid type"}
+{"level":"INFO","time":"2021-07-20T16:35:58.794+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0102827}
+{"level":"INFO","time":"2021-07-20T16:38:34.054+0800","caller":"web_app/main.go:77","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2021-07-20T16:38:34.058+0800","caller":"web_app/main.go:86","msg":"Server exiting"}
+{"level":"INFO","time":"2021-07-20T16:38:36.819+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-20T16:38:36.838+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"ERROR","time":"2021-07-20T16:38:41.264+0800","caller":"logic/user.go:40","msg":"Login info:"}
+{"level":"ERROR","time":"2021-07-20T16:38:41.264+0800","caller":"controllers/user.go:52","msg":"Login invalid password err:","error":"key is of invalid type"}
+{"level":"INFO","time":"2021-07-20T16:38:41.265+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0076838}
+{"level":"INFO","time":"2021-07-20T16:39:44.321+0800","caller":"web_app/main.go:77","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2021-07-20T16:39:44.323+0800","caller":"web_app/main.go:86","msg":"Server exiting"}
+{"level":"INFO","time":"2021-07-20T16:39:47.220+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-20T16:39:47.349+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"ERROR","time":"2021-07-20T16:39:52.546+0800","caller":"controllers/user.go:52","msg":"Login invalid password err:","error":"key is of invalid type"}
+{"level":"INFO","time":"2021-07-20T16:39:52.547+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.2534033}
+{"level":"INFO","time":"2021-07-20T16:40:56.372+0800","caller":"web_app/main.go:77","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2021-07-20T16:40:56.374+0800","caller":"web_app/main.go:86","msg":"Server exiting"}
+{"level":"INFO","time":"2021-07-20T16:40:58.532+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-20T16:40:58.591+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-20T16:42:07.343+0800","caller":"web_app/main.go:77","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2021-07-20T16:42:07.351+0800","caller":"web_app/main.go:86","msg":"Server exiting"}
+{"level":"INFO","time":"2021-07-20T16:42:10.255+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-20T16:42:10.266+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"ERROR","time":"2021-07-20T16:42:15.945+0800","caller":"controllers/user.go:52","msg":"Login invalid password err:","error":"key is of invalid type"}
+{"level":"INFO","time":"2021-07-20T16:42:15.946+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0078312}
+{"level":"INFO","time":"2021-07-20T16:43:58.429+0800","caller":"web_app/main.go:77","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2021-07-20T16:43:58.432+0800","caller":"web_app/main.go:86","msg":"Server exiting"}
+{"level":"INFO","time":"2021-07-20T16:44:01.137+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-20T16:44:01.181+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-20T16:44:04.887+0800","caller":"logic/user.go:40","msg":"1","userID":0}
+{"level":"ERROR","time":"2021-07-20T16:44:04.887+0800","caller":"controllers/user.go:52","msg":"Login invalid password err:","error":"key is of invalid type"}
+{"level":"INFO","time":"2021-07-20T16:44:04.888+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0098225}
+{"level":"INFO","time":"2021-07-20T16:44:42.823+0800","caller":"web_app/main.go:77","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2021-07-20T16:44:42.830+0800","caller":"web_app/main.go:86","msg":"Server exiting"}
+{"level":"INFO","time":"2021-07-20T16:44:46.234+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-20T16:44:46.266+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-20T16:44:49.806+0800","caller":"logic/user.go:40","msg":"1","userID":0}
+{"level":"INFO","time":"2021-07-20T16:44:49.806+0800","caller":"logic/user.go:41","msg":"1","username":"test_go2"}
+{"level":"ERROR","time":"2021-07-20T16:44:49.807+0800","caller":"controllers/user.go:52","msg":"Login invalid password err:","error":"key is of invalid type"}
+{"level":"INFO","time":"2021-07-20T16:44:49.807+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0518985}
+{"level":"INFO","time":"2021-07-20T16:45:20.198+0800","caller":"web_app/main.go:77","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2021-07-20T16:45:20.212+0800","caller":"web_app/main.go:86","msg":"Server exiting"}
+{"level":"INFO","time":"2021-07-20T16:45:23.085+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-20T16:45:23.097+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-20T16:45:26.116+0800","caller":"logic/user.go:40","msg":"1","userID":1417401347321368576}
+{"level":"INFO","time":"2021-07-20T16:45:26.116+0800","caller":"logic/user.go:41","msg":"1","username":"test_go2"}
+{"level":"ERROR","time":"2021-07-20T16:45:26.117+0800","caller":"controllers/user.go:52","msg":"Login invalid password err:","error":"key is of invalid type"}
+{"level":"INFO","time":"2021-07-20T16:45:26.117+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0076887}
+{"level":"INFO","time":"2021-07-20T16:49:53.264+0800","caller":"web_app/main.go:77","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2021-07-20T16:49:53.268+0800","caller":"web_app/main.go:86","msg":"Server exiting"}
+{"level":"INFO","time":"2021-07-20T16:49:56.011+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-20T16:49:56.025+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-20T16:49:59.173+0800","caller":"logic/user.go:40","msg":"1","userID":1417401347321368576}
+{"level":"INFO","time":"2021-07-20T16:49:59.173+0800","caller":"logic/user.go:41","msg":"1","username":"test_go2"}
+{"level":"INFO","time":"2021-07-20T16:49:59.174+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0095047}
+{"level":"INFO","time":"2021-07-20T16:51:13.078+0800","caller":"web_app/main.go:77","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2021-07-20T16:51:13.081+0800","caller":"web_app/main.go:86","msg":"Server exiting"}
+{"level":"INFO","time":"2021-07-20T16:51:16.395+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-20T16:51:16.424+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-20T16:51:21.362+0800","caller":"logic/user.go:40","msg":"1","userID":1417401347321368576}
+{"level":"INFO","time":"2021-07-20T16:51:21.363+0800","caller":"logic/user.go:41","msg":"1","username":"test_go2"}
+{"level":"INFO","time":"2021-07-20T16:51:21.363+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0061813}
+{"level":"INFO","time":"2021-07-20T17:43:42.260+0800","caller":"web_app/main.go:77","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2021-07-20T17:43:42.269+0800","caller":"web_app/main.go:86","msg":"Server exiting"}
+{"level":"INFO","time":"2021-07-20T17:43:45.665+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-20T17:43:45.676+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-20T17:43:54.912+0800","caller":"logic/user.go:40","msg":"1","userID":1417401347321368576}
+{"level":"INFO","time":"2021-07-20T17:43:54.912+0800","caller":"logic/user.go:41","msg":"1","username":"test_go2"}
+{"level":"INFO","time":"2021-07-20T17:43:54.913+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0054907}
+{"level":"INFO","time":"2021-07-20T17:47:04.245+0800","caller":"web_app/main.go:77","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2021-07-20T17:47:04.258+0800","caller":"web_app/main.go:86","msg":"Server exiting"}
+{"level":"INFO","time":"2021-07-20T17:47:06.713+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-20T17:47:06.743+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-20T17:47:14.084+0800","caller":"logger/logger.go:81","msg":"/ping","status":200,"method":"POST","path":"/ping","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.000315}

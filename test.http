@@ -1,3 +1,19 @@
+POST http://localhost:80/api/item
+Content-Type: application/x-www-form-urlencoded
+
+id=99&content=new-element
+
+###
+POST http://localhost:80/api/item
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="field-name"; filename="file.txt"
+
+< ./relative/path/to/local_file.txt
+--WebAppBoundary--
+
+###
 
 ###
 ###注册接口
@@ -5,9 +21,9 @@ POST http://127.0.0.1:8081/signup
 Content-Type: application/json
 
 {
-  "username": "test_go",
-  "password": "123",
-  "re_password": "1231"
+  "username": "test_go2",
+  "password": "1234",
+  "re_password": "1234"
 }
 
 
@@ -16,6 +32,17 @@ POST http://127.0.0.1:8081/login
 Content-Type: application/json
 
 {
-  "username": "test_go",
-  "password": "123"
+  "username": "test_go2",
+  "password": "1234",
+  "token": "my-secret-token"
+}
+
+###登录接口
+POST http://127.0.0.1:8081/ping
+Content-Type: application/json
+
+{
+  "username": "test_go2",
+  "password": "1234",
+  "token": "my-secret-token"
 }

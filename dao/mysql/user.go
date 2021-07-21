@@ -43,9 +43,9 @@ func encryptPassword(oPassword string) string {
 }
 
 //Login 获取用户信息
-func Login(user *models.ParamLogin) (err error) {
+func Login(user *models.User) (err error) {
 	oPassword := user.Password
-	sqlStr := `select username,password from user where username = ?`
+	sqlStr := `select user_id,username,password from user where username = ?`
 	err = db.Get(user, sqlStr, user.Username)
 	if err == sql.ErrNoRows {
 		return errors.New("用户不存在")

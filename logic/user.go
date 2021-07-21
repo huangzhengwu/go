@@ -4,6 +4,7 @@ import (
 	"go.uber.org/zap"
 	"web_app/dao/mysql"
 	"web_app/models"
+	"web_app/pkg/jwt"
 	"web_app/pkg/snowflake"
 )
 
@@ -27,10 +28,15 @@ func SignUp(p *models.ParamSignUp) (err error) {
 	return mysql.InsertUser(user)
 }
 
-func Login(user *models.ParamLogin) (err error) {
+func Login(p *models.ParamLogin) (token string, err error) {
+	user := &models.User{
+		Username: p.Username,
+		Password: p.Password,
+	}
 	if err = mysql.Login(user); err != nil {
 		zap.L().Error("Login Login err:", zap.Error(err))
-		return err
+		return "", err
 	}
-	return
+	// 如果登录成功，就生成token
+	return jwt.GenToken(user.UserId, user.Username)
 }
