@@ -287,3 +287,32 @@
 {"level":"INFO","time":"2021-07-20T17:47:06.713+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
 {"level":"INFO","time":"2021-07-20T17:47:06.743+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
 {"level":"INFO","time":"2021-07-20T17:47:14.084+0800","caller":"logger/logger.go:81","msg":"/ping","status":200,"method":"POST","path":"/ping","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.000315}
+{"level":"INFO","time":"2021-07-21T10:16:02.482+0800","caller":"web_app/main.go:77","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2021-07-21T10:16:02.504+0800","caller":"web_app/main.go:86","msg":"Server exiting"}
+{"level":"INFO","time":"2021-07-21T11:06:13.240+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-21T11:06:13.248+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-21T11:06:23.779+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0042723}
+{"level":"INFO","time":"2021-07-21T11:08:49.716+0800","caller":"logger/logger.go:81","msg":"/ping","status":200,"method":"POST","path":"/ping","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0}
+{"level":"INFO","time":"2021-07-21T11:09:29.211+0800","caller":"web_app/main.go:77","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2021-07-21T11:09:29.223+0800","caller":"web_app/main.go:86","msg":"Server exiting"}
+{"level":"INFO","time":"2021-07-21T11:09:31.920+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-21T11:09:31.937+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-21T11:09:38.583+0800","caller":"logger/logger.go:81","msg":"/ping","status":200,"method":"POST","path":"/ping","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0005452}
+{"level":"INFO","time":"2021-07-21T11:09:47.651+0800","caller":"logger/logger.go:81","msg":"/login","status":200,"method":"POST","path":"/login","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.1146292}
+{"level":"INFO","time":"2021-07-21T11:09:52.381+0800","caller":"logger/logger.go:81","msg":"/ping","status":200,"method":"POST","path":"/ping","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0}
+{"level":"INFO","time":"2021-07-21T11:12:32.634+0800","caller":"web_app/main.go:77","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2021-07-21T11:12:32.639+0800","caller":"web_app/main.go:86","msg":"Server exiting"}
+{"level":"INFO","time":"2021-07-21T11:12:35.431+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-21T11:12:36.405+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-21T11:12:45.816+0800","caller":"logger/logger.go:81","msg":"/ping","status":200,"method":"POST","path":"/ping","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0}
+{"level":"INFO","time":"2021-07-21T11:13:40.762+0800","caller":"logger/logger.go:81","msg":"/ping","status":200,"method":"POST","path":"/ping","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0}
+{"level":"INFO","time":"2021-07-21T11:13:46.298+0800","caller":"web_app/main.go:77","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2021-07-21T11:13:46.307+0800","caller":"web_app/main.go:86","msg":"Server exiting"}
+{"level":"INFO","time":"2021-07-21T11:13:51.118+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-21T11:13:51.161+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-21T11:13:55.365+0800","caller":"logger/logger.go:81","msg":"/ping","status":200,"method":"POST","path":"/ping","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0019648}
+{"level":"INFO","time":"2021-07-21T11:14:07.968+0800","caller":"logger/logger.go:81","msg":"/ping","status":200,"method":"POST","path":"/ping","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.000522}
+{"level":"INFO","time":"2021-07-21T11:14:33.446+0800","caller":"logger/logger.go:81","msg":"/ping","status":200,"method":"POST","path":"/ping","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0}
+{"level":"INFO","time":"2021-07-21T11:14:47.961+0800","caller":"logger/logger.go:81","msg":"/ping","status":200,"method":"POST","path":"/ping","query":"","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0}
+{"level":"INFO","time":"2021-07-21T11:33:01.515+0800","caller":"web_app/main.go:77","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2021-07-21T11:33:01.522+0800","caller":"web_app/main.go:86","msg":"Server exiting"}
