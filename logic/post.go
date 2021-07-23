@@ -16,7 +16,7 @@ func CreatePost(p *models.Post) (err error) {
 	if err != nil {
 		return err
 	}
-	err = redis.CreatePost(p.ID)
+	err = redis.CreatePost(p.ID, p.CommunityID)
 	return err
 }
 
@@ -90,8 +90,13 @@ func GetPostListRedis(p *models.ParamPostList) (data []*models.PostDetail, err e
 	if err != nil {
 		return
 	}
+	//查询每篇帖子的投票数
+	voteData, err := redis.GetPostVoteData(ids)
+	if err != nil {
+		return
+	}
 	//将帖子的作者和分区信息填充到帖子中
-	for _, post := range postList {
+	for idx, post := range postList {
 		user, err := mysql.GetUserDetail(post.AuthorID)
 		if err != nil {
 			zap.L().Error("logic mysql.GetUserDetail(post.AuthorID) err", zap.Error(err))
@@ -104,11 +109,55 @@ func GetPostListRedis(p *models.ParamPostList) (data []*models.PostDetail, err e
 		}
 		postDetail := &models.PostDetail{
 			AuthorName:      user.Username,
+			VoteNum:         voteData[idx],
 			Post:            post,
 			CommunityDetail: community,
 		}
 		data = append(data, postDetail)
 	}
 	return
+}
 
+func GetCommunityPostListRedis(p *models.ParamCommunityPostList) (data []*models.PostDetail, err error) {
+	// 2.去redis查询id列表
+	ids, err := redis.GetCommunityPostIDsInOrder(p)
+	if err != nil {
+		return
+	}
+	if len(ids) == 0 {
+		zap.L().Warn("redis.GetPostIDsInOrder(p) return 0 data")
+		return
+	}
+	// 3.根据id去数据库查询帖子详情信息
+	// 返回的数据还要按照给定的数据顺序返回
+	postList, err := mysql.GetPostListByIDs(ids)
+	if err != nil {
+		return
+	}
+	//查询每篇帖子的投票数
+	voteData, err := redis.GetPostVoteData(ids)
+	if err != nil {
+		return
+	}
+	//将帖子的作者和分区信息填充到帖子中
+	for idx, post := range postList {
+		user, err := mysql.GetUserDetail(post.AuthorID)
+		if err != nil {
+			zap.L().Error("logic mysql.GetUserDetail(post.AuthorID) err", zap.Error(err))
+			return nil, err
+		}
+		community, err := mysql.GetCommunityDetail(post.CommunityID)
+		if err != nil {
+			zap.L().Error("logic mysql.GetCommunityDetail(post.CommunityID) err", zap.Error(err))
+			return nil, err
+		}
+		postDetail := &models.PostDetail{
+			AuthorName:      user.Username,
+			VoteNum:         voteData[idx],
+			Post:            post,
+			CommunityDetail: community,
+		}
+		data = append(data, postDetail)
+	}
+	return
 }

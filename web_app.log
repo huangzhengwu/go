@@ -1083,3 +1083,16 @@
 {"level":"INFO","time":"2021-07-23T14:43:11.973+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
 {"level":"INFO","time":"2021-07-23T14:43:11.987+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
 {"level":"INFO","time":"2021-07-23T14:43:15.869+0800","caller":"logger/logger.go:81","msg":"/api/v1/post-list—redis","status":200,"method":"GET","path":"/api/v1/post-list—redis","query":"page=1&size=2&order=time","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0242501}
+{"level":"INFO","time":"2021-07-23T16:16:01.407+0800","caller":"web_app/main.go:77","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2021-07-23T16:16:01.415+0800","caller":"web_app/main.go:86","msg":"Server exiting"}
+{"level":"INFO","time":"2021-07-23T16:16:05.873+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-23T16:16:05.889+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-23T16:16:23.105+0800","caller":"logger/logger.go:81","msg":"/api/v1/post-list—redis","status":200,"method":"GET","path":"/api/v1/post-list—redis","query":"page=1&size=2&order=time","ip":"127.0.0.1","user-agent":"Apache-HttpClient/4.5.12 (Java/11.0.6)","errors":"","cost":0.0343253}
+{"level":"INFO","time":"2021-07-23T17:02:55.499+0800","caller":"web_app/main.go:77","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2021-07-23T17:02:55.514+0800","caller":"web_app/main.go:86","msg":"Server exiting"}
+{"level":"INFO","time":"2021-07-23T17:06:30.283+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-23T17:06:30.296+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}
+{"level":"INFO","time":"2021-07-23T17:11:38.805+0800","caller":"web_app/main.go:77","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2021-07-23T17:11:38.819+0800","caller":"web_app/main.go:86","msg":"Server exiting"}
+{"level":"INFO","time":"2021-07-23T17:11:41.604+0800","caller":"logger/logger.go:48","msg":"logger settings success"}
+{"level":"INFO","time":"2021-07-23T17:11:41.635+0800","caller":"mysql/mysql.go:27","msg":"connect DB success, info:%v\n","dsn":"root:123456@tcp(192.168.35.214:3306)/jh_go_test?charset=utf8mb4&parseTime=True"}

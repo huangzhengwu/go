@@ -98,15 +98,41 @@ func PostListRedisHandle(c *gin.Context) {
 		Size:  10,
 		Order: models.OrderTime, // magic string
 	}
+	//c.ShouldBind() //根据请求中的数据类型选择相应的方法获取数据
+	//c.ShouldBindJSON() //如果请求中携带的时json数据，才能用这个方法获取数据
 	if err := c.ShouldBindQuery(p); err != nil {
 		zap.L().Error("c.ShouldBindQuery(p) err： ", zap.Error(err))
 		ResponseError(c, CodeInvalidParam)
 		return
 	}
-	//c.ShouldBind() //根据请求中的数据类型选择相应的方法获取数据
-	//c.ShouldBindJSON() //如果请求中携带的时json数据，才能用这个方法获取数据
 	// 2.获取帖子数据列表
 	data, err := logic.GetPostListRedis(p)
+	if err != nil {
+		zap.L().Error("controllers PostListRedisHandle logic.GetPostList() err", zap.Error(err))
+		ResponseError(c, CodeServerBusy)
+		return
+	}
+	// 3.返回数据
+	ResponseSuccess(c, data)
+}
+
+func GetCommunityPostListHandle(c *gin.Context) {
+	p := &models.ParamCommunityPostList{
+		ParamPostList: &models.ParamPostList{
+			Page:  1,
+			Size:  10,
+			Order: models.OrderTime,
+		},
+	}
+	//c.ShouldBind() //根据请求中的数据类型选择相应的方法获取数据
+	//c.ShouldBindJSON() //如果请求中携带的时json数据，才能用这个方法获取数据
+	if err := c.ShouldBindQuery(p); err != nil {
+		zap.L().Error("GetCommunityPostListHandle c.ShouldBindQuery(p) err： ", zap.Error(err))
+		ResponseError(c, CodeInvalidParam)
+		return
+	}
+	// 2.获取帖子数据列表
+	data, err := logic.GetCommunityPostListRedis(p)
 	if err != nil {
 		zap.L().Error("controllers logic.GetPostList() err", zap.Error(err))
 		ResponseError(c, CodeServerBusy)
