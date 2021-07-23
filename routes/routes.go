@@ -21,9 +21,18 @@ func Setup(mode string) *gin.Engine {
 	r.POST("/login", controllers.Login)
 	v1.Use(middlewares.JWTAuthMiddleware()) //应用 JWT认证 中间件
 	{
+		//帖子社区
 		v1.GET("/community", controllers.CommunityHandle)
 		v1.GET("/community/:id", controllers.CommunityDetailHandle)
-		v1.POST("/post", controllers.CreatePostHandle)
+		//帖子curd
+		v1.POST("/add-post", controllers.CreatePostHandle)
+		v1.GET("/post-detail/:id", controllers.PostDetailHandle)
+		v1.GET("/post-list", controllers.PostListHandle)
+		v1.GET("/post-list—redis", controllers.PostListRedisHandle)
+
+		//投票
+		v1.POST("/vote", controllers.PostVoteController)
+
 	}
 	r.NoRoute(func(c *gin.Context) {
 		c.JSON(http.StatusOK, gin.H{

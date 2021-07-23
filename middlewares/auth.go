@@ -47,7 +47,7 @@ func JWTAuthMiddleware() func(c *gin.Context) {
 			return
 		}
 		// 将当前请求的username信息保存到请求的上下文c上
-		c.Set(CtxUserIDKey, mc.Username)
+		c.Set(CtxUserIDKey, mc.UserID)
 		c.Next() // 后续的处理函数可以用过c.Get(CtxUserIDKey)来获取当前请求的用户信息
 	}
 }

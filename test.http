@@ -19,6 +19,8 @@ Content-Type: application/json
   "password": "1234"
 }
 
+##########################################   社区  ###############################################
+
 ###获取社区数据
 GET http://127.0.0.1:8081/api/v1/community
 Authorization: Bearer {{token}}
@@ -35,14 +37,55 @@ Authorization: Bearer {{token}}
   "": ""
 }
 
+##########################################   帖子  ###############################################
+
 ###添加帖子
-POST http://127.0.0.1:8081/api/v1/post
+POST http://127.0.0.1:8081/api/v1/add-post
 Authorization: Bearer {{token}}
 
 {
-  "CommunityID": 1,
-  "Status": 1,
-  "Title": "雄鹿夺冠了",
-  "Content": "7.21号，雄鹿夺冠了，字母哥屌炸了",
+  "community_id": 2,
+  "title": "湖人明年能夺冠吗2222",
+  "content": "湖人三巨头在哪里22222"
+}
+
+###帖子详情
+GET http://127.0.0.1:8081/api/v1/post-detail/1418029123896348672
+Authorization: Bearer {{token}}
+
+{
+  "": ""
+}
+
+###帖子列表
+GET http://127.0.0.1:8081/api/v1/post-list?page=2&size=2
+Authorization: Bearer {{token}}
+
+{
+  "page": 2,
+  "community_id": 2,
+  "title": "湖人明年能夺冠吗2",
+  "content": "湖人三巨头在哪里2"
+}
+
+
+###帖子列表
+GET http://127.0.0.1:8081/api/v1/post-list—redis?page=1&size=2&order=time
+Authorization: Bearer {{token}}
+
+{
+  "": ""
+}
+
+
+##########################################   投票  ###############################################
+
+###帖子列表
+POST http://127.0.0.1:8081/api/v1/vote
+Authorization: Bearer {{token}}
+
+{
+  "post_id": "1418432295601180672",
+  "direction": 1
 }
 

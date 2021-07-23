@@ -42,7 +42,7 @@ func encryptPassword(oPassword string) string {
 	return hex.EncodeToString(h.Sum([]byte(oPassword)))
 }
 
-//Login 获取用户信息
+// Login 获取用户信息
 func Login(user *models.User) (err error) {
 	oPassword := user.Password
 	sqlStr := `select user_id,username,password from user where username = ?`
@@ -55,6 +55,19 @@ func Login(user *models.User) (err error) {
 	}
 	if encryptPassword(oPassword) != user.Password {
 		return errors.New("用户名或密码错误")
+	}
+	return
+}
+
+// GetUserDetail 获取用户详情
+func GetUserDetail(id int64) (user *models.User, err error) {
+	user = new(models.User)
+	sqlStr := `select user_id,username,password from user where user_id = ?`
+	if err := db.Get(user, sqlStr, id); err != nil {
+		if err == sql.ErrNoRows {
+			zap.L().Warn("have no data in db")
+			return user, err
+		}
 	}
 	return
 }
